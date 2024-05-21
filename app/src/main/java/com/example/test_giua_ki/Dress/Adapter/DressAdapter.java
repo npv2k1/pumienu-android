@@ -82,8 +82,7 @@ public class DressAdapter extends RecyclerView.Adapter<DressAdapter.ViewHolder> 
             this.txtPrice = (TextView)itemView.findViewById(R.id.idTVPrice);
             this.ivAdd = (ImageView)itemView.findViewById(R.id.ivAdd);
             this.txtDesc = (TextView)itemView.findViewById(R.id.idTVDesc);
-            this.idIVSSImage = (ImageView)itemView.findViewById(R.id.idIVSSImage);
-
+            this.idIVSSImage = (ImageView)itemView.findViewById(R.id.imageView);
             this.relativeLayout = (ConstraintLayout) itemView.findViewById(R.id.relativelayout);
 
         }
